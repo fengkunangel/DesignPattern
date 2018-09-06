@@ -3,7 +3,7 @@ package com.fengkun.design_pattern.decorator.women;
 /**
  * Created by boyxiaokun on 2018/9/6.
  */
-public class EducationWomen extends BaseWomen {
+public class EducationWomen extends WrapperWomen {
 
     public EducationWomen(Women women) {
         super(women);

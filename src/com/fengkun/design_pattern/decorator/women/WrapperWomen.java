@@ -3,12 +3,12 @@ package com.fengkun.design_pattern.decorator.women;
 /**
  * Created by boyxiaokun on 2018/9/7.
  */
-public abstract class BaseWomen extends Women {
+public abstract class WrapperWomen extends Women {
 
     //内部持有一个women对象属性
     private Women women;
 
-    public BaseWomen(Women women) {
+    public WrapperWomen(Women women) {
         super(women.getBeautyIndex(), women.getIq(), women.getName());
         this.women = women;
     }
