@@ -1,14 +1,23 @@
 package com.fengkun.design_pattern.decorator.women;
 
 /**
- * Created by boyxiaokun on 2018/9/6.
+ * Created by fengkunangel on 2018/9/6.
  */
 public class Women {
 
+    /**
+     * 颜值
+     */
     private int beautyIndex;
 
+    /**
+     * 智商
+     */
     private int iq;
 
+    /**
+     * 名字
+     */
     private String name;
 
     public Women(int beautyIndex, int iq, String name) {

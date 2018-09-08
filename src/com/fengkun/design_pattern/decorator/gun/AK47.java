@@ -1,7 +1,7 @@
 package com.fengkun.design_pattern.decorator.gun;
 
 /**
- * Created by boyxiaokun on 2018/9/8.
+ * Created by fengkunangel on 2018/9/8.
  */
 public class AK47 implements Gun {
 

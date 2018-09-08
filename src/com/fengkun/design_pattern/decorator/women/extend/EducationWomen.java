@@ -3,7 +3,7 @@ package com.fengkun.design_pattern.decorator.women.extend;
 import com.fengkun.design_pattern.decorator.women.Women;
 
 /**
- * Created by boyxiaokun on 2018/9/6.
+ * Created by fengkunangel on 2018/9/6.
  */
 public class EducationWomen extends Women {
 

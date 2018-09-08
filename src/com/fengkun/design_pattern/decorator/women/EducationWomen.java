@@ -1,7 +1,7 @@
 package com.fengkun.design_pattern.decorator.women;
 
 /**
- * Created by boyxiaokun on 2018/9/6.
+ * Created by fengkunangel on 2018/9/6.
  */
 public class EducationWomen extends WrapperWomen {
 
