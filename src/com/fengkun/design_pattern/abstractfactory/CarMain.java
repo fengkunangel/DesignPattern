@@ -1,9 +1,7 @@
 package com.fengkun.design_pattern.abstractfactory;
 
-import com.fengkun.design_pattern.simplefactory.BenzCar;
-
 /**
- * Created by boyxiaokun on 2018/9/14.
+ * Created by fengkunangel on 2018/9/14.
  */
 public class CarMain {
 
