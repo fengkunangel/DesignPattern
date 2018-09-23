@@ -11,8 +11,8 @@ public class JayProxyMain {
 
     public static void main(String[] args) {
         Jay jay = new Jay();
-        Class<?>[] interfaces = new Class[]{Singer.class, Person.class};
-        Object obj = Proxy.newProxyInstance(JayProxyMain.class.getClassLoader(), interfaces, new InvocationHandler() {
+        Class<?>[] interfaces = jay.getClass().getInterfaces();
+        Object obj = Proxy.newProxyInstance(jay.getClass().getClassLoader(), interfaces, new InvocationHandler() {
             @Override
             public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
                 if (method.getName().equals("sign")) {
